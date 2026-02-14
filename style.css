@@ -285,3 +285,36 @@ h3{
     padding: 30px 0;
     margin: 40px 0;
 }
+/* main > book */
+.booking .container{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.booking input, .booking select{
+    border: 1px solid #80808045 ;
+    padding: 8px;
+    border-radius: 4px;
+    display: block;
+    outline: 0;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.booking form{
+    width: 100%;
+}
+/* main > testimonies */
+.testimonies .card .card-top{
+    background: rgb(var(--dark));
+    padding: 14px;
+    border-right: 6px;
+    margin: 14px 0;
+    color: #fff;
+    font-size: 13px;
+}
+.testimonies .card-img{
+    border-radius: 50%;
+    width: 80%;
+    border: 5px solid rgb(var(--orange));
+    overflow: hidden;
+}
