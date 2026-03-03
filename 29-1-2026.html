@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Design_wed_team.com</title>
+    <style>
+        header {
+            background-color: rgb(236, 165, 77);
+            text-align: center;
+            width: 100%;
+            display: flex;
+
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        ul a {
+            text-decoration: none;
+            color: rgb(15, 15, 15);
+            text-align: center;
+        }
+
+        footer {
+            background-color: rgb(233, 154, 58);
+            display: flex;
+            width: 100%;
+        }
+
+        .box1 {
+            display: flex;
+            margin: 30px auto;
+            margin: grid;
+            grid-template-columns: repeat (3, 1fr);
+            gap: 100px;
+
+        }
+
+        .box2 {
+            display: flex;
+            margin: 30px auto;
+            margin: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 100px;
+        }
+
+        .box3 {
+            display: flex;
+            margin: 30px auto;
+            margin: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 100px;
+        }
+
+        .box4 {
+            display: flex;
+            margin: 30px auto;
+            margin: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 100px;
+
+        }
+
+        .box5 {
+            display: flex;
+            margin: 30px auto;
+            margin: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 100px;
+        }
+
+        .box6 {
+            display: flex;
+            margin: 30px auto;
+            margin: grid;
+            grid-template-columns: repeat(3, 1fr);
+            color: rgb(15, 14, 14);
+            font-size: larger;
+            gap: 100px;
+        }
+
+        .box7 {
+            display: flex;
+            margin: 30px auto;
+            margin: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 100px;
+        }
+
+        .box8 {
+            display: flex;
+            margin: 30px auto;
+            margin: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 100px;
+        }
+
+        .box9 {
+            display: flex;
+            margin: 30px auto;
+            margin: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 100px;
+        }
+
+        .box10 {
+            display: flex;
+            margin: 30px auto;
+            margin: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 100px;
+        }
+
+        .box11 {
+            display: flex;
+            margin: 30px auto;
+            margin: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 100px;
+        }
+
+        .box12 {
+            display: flex;
+            margin: 30px auto;
+            margin: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 100px;
+        }
+
+        .container {
+            background-color: bisque;
+            border: 10px solid rgb(226, 223, 223);
+        }
+
+        .img {
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            box-shadow: 4px 5px 4px rgb(228, 3, 228);
+        }
+
+        .container1 {
+            display: flex;
+            gap: 20px;
+        }
+
+        .container2 {
+            display: flex;
+            gap: 20px;
+        }
+6
+        .container3 {
+            display: flex;
+            gap: 20px;
+        }
+
+        .container4 {
+            display: flex;
+            gap: 20px;
+        }
+
+        .container5 {
+            display: flex;
+            gap: 20px;
+        }
+
+        .container6 {
+            display: flex;
+            gap: 20px;
+        }
+
+        .text {
+            display: flex;
+            gap: 200px;
+            margin: 10px auto;
+        }
+
+        .img {
+            height: 250px;
+            width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1> MR. YARM BABE CUSMATICS</h1>
+        <nav>
+            <ul>
+                <a href="">
+                    <li>HOME</li>
+                </a>
+                <a href="">
+                    <li>CONTACT</li>
+                </a>
+                <a href="">
+                    <li>ABOUT</li>
+                </a>
+                <a href="https://makersrow.com/blog/top-beauty-manufacturers-in-the-usa/">
+                    <li> website</li>
+                </a>
+                <a href="https://www.facebook.com/groups/687369336666322/">
+                    <li>MEDIA CONTENT</li>
+                </a>
+                <a href="https://www.lagirlusa.com/?srsltid=AfmBOoq-N2KJxBXcVq0s0tPqaXOPwtatVlkT623YO5E5AxxsE2eKcyWi">
+                    <li> USA style </li>
+                </a>
+                <a
+                    href="https://www.google.com/search?q=Fenty+Beauty&sca_esv=02d96f4dae5a5963&biw=1351&bih=625&aic=0&sxsrf=ANbL-n5vz8GqTAwlrIZ1kK37xvwlGCN1fg%3A1769679194902&ei=Wil7aZHpNfPAhbIP2Kew-AQ&ved=2ahUKEwinzeylubCSAxU7V0EAHeKOG6EQgK4QegQIARAE&uact=5&oq=most+popular++cosmetics++owner+in+usa&gs_lp=Egxnd3Mtd2l6LXNlcnAiJW1vc3QgcG9wdWxhciAgY29zbWV0aWNzICBvd25lciBpbiB1c2EyCBAhGKABGMMESISBA1CTN1iJ-wJwAngAkAEAmAGIBaABqEOqAQwwLjIuMjEuNS4wLjK4AQPIAQD4AQGYAhmgAu00wgIKEAAYRxjWBBiwA8ICDRAAGIAEGIoFGEMYsAPCAgYQABgHGB7CAgcQABiABBgNwgIIEAAYCBgHGB7CAgYQABgeGA3CAggQABgIGB4YDcICCxAAGIAEGIoFGIYDwgIIEAAYgAQYogTCAgUQABjvBcICBhAAGAgYHsICBhAAGBYYHsICChAhGAoYoAEYwwSYAwCIBgGQBgmSBwwyLjAuMTcuNC4xLjGgB-qnAbIHCjItMTcuNC4xLjG4B8w0wgcIMC4zLjE0LjjIB64BgAgB&sclient=gws-wiz-serp&mstk=AUtExfBrAtAixk_e-SVxDajPdhNQ2eryJaIn18yZMY1MF_dKfLc-X7eAl8V-VDABnn_2D4Ql16r1_s-AqXv8OuLVYj1kF5CcV__KgT69gGjh6E0ym7eTrZlLPOJN4DcSyVXsMAbw7yVE8lu66jaDDU8oOHuTLy-VhsVkN6pce946wA88IPCv3eUZjVEcwmkUzgBIdDNXDv8bjM3aDIEPQlxLW6FFt7f4ouPlWrlkpXqn_HWYOEMzdCJEbwY-zZBaNcpmOIpzhQJUCn20UvZRJLKxFA7UMVPRon9LMFGcKK4-IOaEcg5Otp7lBJhs67WgaXboQw&csui=3">
+                    <li>profile</li>
+                </a>
+            </ul>
+        </nav>
+
+    </header>
+    <div class="container">
+        <div class="box1">
+            <div> <img src="clothes.jpeg" class="img">clothe</div>
+            <div> <img src="earing.jpeg" class="img">earing</div>
+            <div> <img src="shoes.jpeg" class="img">shoes</div>
+            <div><img src="phone20.jpg" class="img">phone</div>
+        </div>
+        <div class="box2">
+            <div> <img src="clothes.jpeg" class="img">clothe</div>
+            <div> <img src="earing.jpeg" class="img">earing</div>
+            <div><img src="phone20.jpg" class="img">phone</div>
+            <div> <img src="shoes.jpeg" class="img">shoes</div>
+        </div>
+        <div class="box3">
+            <div><img src="phone20.jpg" class="img">phone</div>
+            <div> <img src="clothes.jpeg" class="img">clothe</div>
+            <div> <img src="earing.jpeg" class="img">earing</div>
+            <div> <img src="shoes.jpeg" class="img">shoes</div>
+        </div>
+        <div class="box4">
+            <div> <img src="clothes.jpeg" class="img">clothe</div>
+            <div><img src="phone20.jpg" class="img">phone</div>
+            <div> <img src="earing.jpeg" class="img">earing</div>
+            <div> <img src="shoes.jpeg" class="img">shoes</div>
+        </div>
+        <div class="box5">
+            <div> <img src="clothes.jpeg" class="img">clothe</div>
+            <div> <img src="earing.jpeg" class="img">earing</div>
+            <div><img src="phone20.jpg" class="img">phone</div>
+            <div> <img src="shoes.jpeg" class="img">shoes</div>
+        </div>
+        <div class="box6">
+            <div><img src="phone20.jpg" class="img">phone</div>
+            <div> <img src="clothes.jpeg" class="img">clothe</div>
+            <div> <img src="earing.jpeg" class="img">earing</div>
+            <div> <img src="shoes.jpeg" class="img">shoes</div>
+        </div>
+        <div class="box7">
+            <div> <img src="clothes.jpeg" class="img">clothe</div>
+            <div> <img src="earing.jpeg" class="img">earing</div>
+            <div><img src="phone20.jpg" class="img">phone</div>
+            <div> <img src="shoes.jpeg" class="img">shoes</div>
+        </div>
+        <div class="box8">
+            <div> <img src="clothes.jpeg" class="img">clothe</div>
+            <div><img src="phone20.jpg" class="img">phone</div>
+            <div> <img src="earing.jpeg" class="img">earing</div>
+            <div> <img src="shoes.jpeg" class="img">shoes</div>
+        </div>
+        <div class="box9">
+            <div><img src="phone20.jpg" class="img">phone</div>
+            <div> <img src="clothes.jpeg" class="img">clothe</div>
+            <div> <img src="earing.jpeg" class="img">earing</div>
+            <div> <img src="shoes.jpeg" class="img">shoes</div>
+        </div>
+        <div class="box10">
+            <div> <img src="clothes.jpeg" class="img">clothe</div>
+            <div> <img src="earing.jpeg" class="img">earing</div>
+            <div> <img src="shoes.jpeg" class="img">shoes</div>
+            <div><img src="phone20.jpg" class="img">phone</div>
+        </div>
+        <div class="box11">
+            <div> <img src="clothes.jpeg" class="img">clothe</div>
+            <div> <img src="earing.jpeg" class="img">earing</div>
+            <div><img src="phone20.jpg" class="img">phone</div>
+            <div> <img src="shoes.jpeg" class="img">shoes</div>
+        </div>
+        <div class="box12">
+            <div> <img src="clothes.jpeg" class="img">clothe</div>
+            <div><img src="phone20.jpg" class="img">phone</div>
+            <div> <img src="earing.jpeg" class="img">earing</div>
+            <div> <img src="shoes.jpeg" class="img">shoes</div>
+        </div>
+        <div class="container1">
+            <div class="items2">
+                <img src="phone2.jpg" class="img">
+                <div class="text">
+                    <p class="phone2"> $ 4,000</p>
+                    <p class="phone"> <button>Buy</button></p>
+                </div>
+            </div>
+            <div class="items21">
+                <img src="phone21.jpg" class="img">
+                <div class="text">
+                    <p class="phone21"> $ 4,000</p>
+                    <p class="phone"> <button>Buy</button></p>
+                </div>
+            </div>
+            <div class="items3">
+                <img src="phone3.jpg" class="img">
+                <div class="text">
+                    <p class="phone3"> $ 4,000</p>
+                    <p class="phone"> <button>Buy</button></p>
+                </div>
+            </div>
+            <div class="items4">
+                <img src="phone4.jpg" class="img">
+                <div class="text">
+                    <p class="phone4"> $ 4,000</p>
+                    <p class="phone"> <button>Buy</button>phone</p>
+                </div>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="items20">
+                <img src="phone20.jpg" class="img">
+                <div class="text">
+                    <p class="phone20"> $ 4,000</p>
+                    <p class="phone"><button>Buy</button></p>
+                </div>
+            </div>
+            <div class="items21">
+                <img src="phone21.jpg" class="img">
+                <div class="text">
+                    <p class="phone21"> $ 4,000</p>
+                    <p class="phone"> <button>Buy</button></p>
+                </div>
+            </div>
+            <div class="items6">
+                <img src="phone6.jpg" class="img">
+                <div class="text">
+                    <p class="phone6"> $ 4,000</p>
+                    <p class="phone"> <button>Buy</button></p>
+                </div>
+            </div>
+            <div class="items7">
+                <img src="phone7.jpg" class="img">
+                <div class="text">
+                    <p class="phone7"> $ 4,000</p>
+                    <p class="phone"><button>Buy</button></p>
+                </div>
+            </div>
+        </div>
+        <div class="container3">
+            <div class="items8">
+                <img src="phone8.jpg" class="img">
+                <div class="text">
+                    <p class="phone8"> $ 4,000</p>
+                    <p class="phone"> <button>Buy</button></p>
+                </div>
+            </div>
+            <div class="items9">
+                <img src="phone9.jpg" class="img">
+                <div class="text">
+                    <p class="phone9"> $ 4,000</p>
+                    <p class="phone"><button>Buy</button></p>
+                </div>
+            </div>
+            <div class="items10">
+                <img src="phone10.jpg" class="img">
+                <div class="text">
+                    <p class="phone10"> $ 4,000</p>
+                    <p class="phone"> <button>Buy</button></p>
+                </div>
+            </div>
+            <div class="items21">
+                <img src="phone21.jpg" class="img">
+                <div class="text">
+                    <p class="phone21"> $ 4,000</p>
+                    <p class="phone"> <button>Buy</button></p>
+                </div>
+            </div>
+        </div>
+        <div class="container4">
+            <div class="items21">
+                <img src="phone21.jpg" class="img">
+                <div class="text">
+                    <p class="phone21"> $ 4,000</p>
+                    <p class="phone"><button>Buy</button></p>
+                </div>
+            </div>
+            <div class="items11">
+                <img src="phone11.jpg" class="img">
+                <div class="text">
+                    <p class="phone11"> $ 4,000</p>
+                    <p class="phone"> <button>Buy</button></p>
+                </div>
+            </div>
+            <div class="items12">
+                <img src="phone12.jpg" class="img">
+                <div class="text">
+                    <p class="phone12"> $ 4,000</p>
+                    <p class="phone"> <button>Buy</button></p>
+                </div>
+            </div>
+            <div class="items13">
+                <img src="phone13.jpg" class="img">
+                <div class="text">
+                    <p class="phone13"> $ 4,000</p>
+                    <p class="phone"><button>Buy</button></p>
+                </div>
+            </div>
+        </div>
+        <div class="container5">
+            <div class="items14">
+                <img src="phone14.jpg" class="img">
+                <div class="text">
+                    <p class="phone14"> $ 4,000</p>
+                    <p class="phone"> <button>Buy</button></p>
+                </div>
+            </div>
+            <div class="items21">
+                <img src="phone21.jpg" class="img">
+                <div class="text">
+                    <p class="phone21"> $ 4,000</p>
+                    <p class="phone"><button>Buy</button></p>
+                </div>
+            </div>
+            <div class="items15">
+                <img src="phone15.jpg" class="img">
+                <div class="text">
+                    <p class="phone15"> $ 4,000</p>
+                    <p class="phone"> <button>Buy</button></p>
+                </div>
+            </div>
+            <div class="items16">
+                <img src="phone16.jpg" class="img">
+                <div class="text">
+                    <p class="phone16"> $ 4,000</p>
+                    <p class="phone"> <button>Buy</button></p>
+                </div>
+            </div>
+        </div>
+        <div class="container6">
+            <div class="items17">
+                <img src="phone17.jpg" class="img">
+                <div class="text">
+                    <p class="phone17"> $ 4,000</p>
+                    <p class="phone"> <button>Buy</button></p>
+                </div>
+            </div>
+            <div class="items18">
+                <img src="phone18.jpg" class="img">
+                <div class="text">
+                    <p class="phone18"> $ 4,000</p>
+                    <p class="phone"> <button>Buy</button></p>
+                </div>
+            </div>
+            <div class="items19">
+                <img src="phone19.jpg" class="img">
+                <div class="text">
+                    <p class="phone19"> $ 4,000</p>
+                    <p class="phone"> <button>Buy</button></p>
+                </div>
+            </div>
+
+            <div class="items21">
+                <img src="phone21.jpg" class="img">
+                <div class="text">
+                    <p class="phone21"> $ 4,000</p>
+                    <p class="phone"> <button>Buy</button></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+
+        <h3> MR. YARM BABE RECEIVING ADDRESS </h3>
+
+        <a href="">
+            <ul> CONTACT: 09164381963</ul>
+        </a>
+        <a href="">
+            <ul> HOME ADDRESS: ASOKORO</ul>
+        </a>
+        <a href="">
+            <ul> EMAIL: babeyarm@gmail.com </ul>
+        </a>
+        <P> <a href="">
+                <ul> INSTAGRAM PAGE:YarmBABEy009</ul>
+            </a></P>
+
+
+        <h3> MR. YARM NEXT OF KING ADDRESS </h3>
+
+        <a href="">
+            <ul> ADdress: MAITAMA MISISIPI</ul>
+        </a>
+        <a href="">
+            <ul> HOUSE NUMBER :89 UMUGU STREET</ul>
+        </a>
+        <a href="">
+            <ul> EMAIL:yarmtheumugu@gmail.com</ul>
+        </a>
+        <!--
+       
+        <h3> MR. YARM BABE street name and address</h3>
+       
+        <a href="">
+            <ul>AT: fufu international market </ul>
+        </a>
+        <a href="">
+            <ul>state: mina </ul>
+        </a>
+        <a href="">
+            <ul> local gov: BUHARI boys quater</ul>
+        </a> -->
+    </footer>
+</body>
+
+</html>
